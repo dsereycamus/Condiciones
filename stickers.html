@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador stickers</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <section class="stickers-2">
+            <h1>Selecciona los stickers que deseas llevar:</h1>
+            <p>(No olvides que puedes seleccionar como máximo 10 en total)</p>
+            <div class="cards">
+                <div class="card">
+                    <img src="./assets/img/overlord.jpg" alt="overlord">
+                    <p>Sección: Overlord</p>
+                    <input id="overlord" type="number" min="0" max="10" value="0">
+                </div>
+                <div class="card">
+                    <img src="./assets/img/mugiwaras.webp" alt="onepiece">
+                    <p>Sección: One Piece</p>
+                    <input id="onepiece" type="number" min="0" max="10" value="0">
+                </div>
+                <div class="card">
+                    <img src="./assets/img/gintama.jpg" alt="gintama">
+                    <p>Sección: Gintama</p>
+                    <input id="gintama" type="number" min="0" max="10" value="0">
+                </div>
+            </div>
+            <p id="txt-verificar"></p>
+            <button id="btn-verificar">Verificar cantidad</button>
+        </section>
+    </div>
+
+    <script src="./js/stickers.js"></script>
+</body>
+
+</html>
